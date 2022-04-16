@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://maven.apache.org/POM/4.0.0"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <groupId>com.bubo</groupId>
+        <artifactId>bubo</artifactId>
+        <version>3.4.0</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <modules>
+        <module>bubo-common-log</module>
+        <module>bubo-common-core</module>
+        <module>bubo-common-redis</module>
+        <module>bubo-common-swagger</module>
+        <module>bubo-common-security</module>
+        <module>bubo-common-datascope</module>
+		<module>bubo-common-datasource</module>
+    </modules>
+
+    <artifactId>bubo-common</artifactId>
+    <packaging>pom</packaging>
+
+    <description>
+	    bubo-common通用模块
+    </description>
+
+</project>
